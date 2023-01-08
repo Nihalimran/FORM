@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE-Edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Form</title>
+</head>
+
+<body>
+    <h1>Form</h1>
+    <form>
+        <fieldset>
+            <legend>
+                <h3>your Details:</h3>
+            </legend>
+            
+            <p>Username:</p>
+            <label for="username"><input type="text" name="username" id="username"
+            placeholder="Enter your email/username" required minlength="5" maxlength="10"
+            autocomplete="additional-name" autofocus="cursor">
+            </label>
+            
+            
+            <p>Email:</p>
+            <lable for="email" ><input type="email"name ="email"id="email Address" placeholder="Email"> </lable>
+            
+            <p>Password:</p><lable for="password"><input type="password"name="password"id="password"placeholder="password"
+            required minlength="6"maxlength="8"></lable>
+            <br />
+            <br />
+            <br />
+
+
+    </fieldset>
+    <p>
+        <legend><h3>About you:</h3>
+
+        </legend><p>your bio:</p>
+        <lable for="bio"><textarea name="textarea" id="bio" cols="50" row="50" placeholder="your bio..."maxlength="300">
+
+        </textarea>
+    </lable>
+    <p>please select your favorit genre:</p>
+    <input type="radio" name="genre" value="rock" checked="checked" />
+    <lable for="Rock">Rock</lable>
+    <input type="radio" name="genre" value="Pop" />
+    <lable for="Pop">Pop</lable>
+    <input type="radio" name="genre" value="Jazz" />
+    <lable for="Jazz">Jazz</lable></p>
+    <p>please select your favorite music service(s):</p>
+    <input type="checkbox" value="iTunes" checked><lable for="iTunes">itunes</lable>
+    <input type="checkbox" value="last.fm"><label for="last.fm"></label>Last.fm</label>
+    <input type="checked" value="Spotify"><lable for="Spotify"></lable>Spotify</label>
+
+    <p>What device do you listen to music on?</p>
+    <lable for="device"><select name="device" multiple="3">
+
+</lable><lable for="Ipod">
+        <option value="Ipod">Ipod</option>
+    </lable>
+    <label for="Radio"><option value="Radio">Radio</option></label>
+    <lable for="computer"><option value="computer">computer</option></lable>
+    <lable for="Android Mobile"><option value="Android Monile">Andriod Mobile</option></lable>
+</select>
+<br />
+<br />
+<br />
+
+<lable for=""age>Age: <input type="number" name="age" id="age" required step="3"/></lable>
+<br />
+<br />
+<lable for="date">Date of birth: <input type="date"></lable>
+<br />
+<br />
+
+Gender:
+<input id="female" type="radio" name="gender" value="f">
+<lable for="female">Female</lable>
+<input id="male" type="radio" name="gender" value="m">
+<lable for="male">Male</lable> 
+
+<lable for="image">
+    <p>Upload your Image:</p>
+    <input type="file" name="image/*" id="image" /><br />
+</lable>
+<br />
+<lable for="myBrowser">Choose a browser frome this list:</lable>
+<inpute list="browser" id="mybrowser" name="mybrowser" />
+<datalist id="browser">
+    <option value="chrome"></option>
+    <option value="firefox"></option>
+    <option value="internet Explorer"></option>
+    <option value="Microsoft Edge"></option>
+<option</datalist>
+<br />
+<br />
+<lable for="file">Select your File:<input type="file" accept="/dox"></lable>
+<br />
+<br />
+<lable for="submit"><input type="submit" value="submit"></lable>
+<br />
+<br />
+<lable for="reset"><input type="reset" value="reset"></lable>
+
+ </fieldset>
+
+ </form>
+</body>
+</html>
+
+
+
+
+
+
